@@ -1,9 +1,6 @@
 $(".count-btn").click(function () {
-  // .attr() 屬性，點擊判斷data
   var btnType = $(this).attr("data");
-  // 取input的值，以方便做運算
   var inputVal = $("#addResult").val();
-  // if點下去的按鈕data="add"  數字加1
   if (btnType == "add") {
     $("#addResult").val(parseInt(inputVal) + 1);
   } else if (btnType == "minus" && inputVal > 1) {
@@ -11,10 +8,64 @@ $(".count-btn").click(function () {
   }
 });
 
+$(".count-btn-2").click(function () {
+  var btnType = $(this).attr("data");
+  var inputVal = $("#addResult-2").val();
+  if (btnType == "add") {
+    $("#addResult-2").val(parseInt(inputVal) + 1);
+  } else if (btnType == "minus" && inputVal > 1) {
+    $("#addResult-2").val(parseInt(inputVal) - 1);
+  }
+});
+
+$(".count-btn-3").click(function () {
+  var btnType = $(this).attr("data");
+  var inputVal = $("#addResult-3").val();
+  if (btnType == "add") {
+    $("#addResult-3").val(parseInt(inputVal) + 1);
+  } else if (btnType == "minus" && inputVal > 1) {
+    $("#addResult-3").val(parseInt(inputVal) - 1);
+  }
+});
+
+$(".count-btn-4").click(function () {
+  var btnType = $(this).attr("data");
+  var inputVal = $("#addResult-4").val();
+  if (btnType == "add") {
+    $("#addResult-4").val(parseInt(inputVal) + 1);
+  } else if (btnType == "minus" && inputVal > 1) {
+    $("#addResult-4").val(parseInt(inputVal) - 1);
+  }
+});
+
 $(".button1").click(function () {
-  $(".howMany").show();
+  $(".howMany1").show();
 });
 
 $(".close").click(function () {
-  $(".howMany").hide();
+  $(".howMany1").hide();
+});
+
+$(".button2").click(function () {
+  $(".howMany2").show();
+});
+
+$(".close").click(function () {
+  $(".howMany2").hide();
+});
+
+$(".button3").click(function () {
+  $(".howMany3").show();
+});
+
+$(".close").click(function () {
+  $(".howMany3").hide();
+});
+
+$(".button4").click(function () {
+  $(".howMany4").show();
+});
+
+$(".close").click(function () {
+  $(".howMany4").hide();
 });
