@@ -46,12 +46,24 @@ $(".close").click(function () {
   $(".howMany1").hide();
 });
 
+$(".button1").click(function () {
+  $(".popup-background").show();
+});
+
+$(".close").click(function () {
+  $(".popup-background").hide();
+});
+
 $(".button2").click(function () {
   $(".howMany2").show();
 });
 
 $(".close").click(function () {
   $(".howMany2").hide();
+});
+
+$(".button2").click(function () {
+  $(".popup-background").show();
 });
 
 $(".button3").click(function () {
@@ -62,10 +74,18 @@ $(".close").click(function () {
   $(".howMany3").hide();
 });
 
+$(".button3").click(function () {
+  $(".popup-background").show();
+});
+
 $(".button4").click(function () {
   $(".howMany4").show();
 });
 
 $(".close").click(function () {
   $(".howMany4").hide();
+});
+
+$(".button4").click(function () {
+  $(".popup-background").show();
 });

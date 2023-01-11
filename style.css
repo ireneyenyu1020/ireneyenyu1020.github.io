@@ -5,9 +5,9 @@
 }
 
 body {
+  background: #fffaef;
   font-family: "Noto Sans TC", sans-serif;
   font-family: "Noto Serif TC", serif;
-  background-color: rgb(255, 255, 255);
   margin: 0px;
 }
 
@@ -67,35 +67,65 @@ body {
   text-align: center;
 }
 
+.cake2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 65px;
+}
+.cake2 ul {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cake2 ul li {
+  display: inline-block;
+  text-align: center;
+}
+
 .cake-intro-img-1 img {
   height: 300px;
 }
 
 .cake-intro-title-1 p {
-  color: #5c4936;
-  font-size: 20pt;
+  color: #896948;
+  font-size: 16pt;
   margin-top: 0;
+  font-weight: 600;
 }
 
 .cake-intro-1 {
-  padding-top: 87px;
+  padding-top: 50px;
   padding-left: 60px;
+  display: flex;
+  justify-content: left;
 }
 .cake-intro-1 p {
   display: flex;
-  color: #5c4936;
+  color: #896948;
+}
+
+.cake-intro-3 {
+  padding-top: 70px;
+  padding-left: 60px;
+}
+.cake-intro-3 p {
+  display: flex;
+  color: #896948;
 }
 .cake-intro-2 img {
   height: 51px;
 }
 .cake-intro-2 {
-  padding-top: 95px;
+  padding-top: 100px;
   padding-right: 60px;
 }
 .cake-intro-2 p {
   display: flex;
   justify-content: flex-end;
-  color: #5c4936;
+  color: #896948;
 }
 
 .天使草莓奶油蛋糕-text p {
@@ -106,15 +136,17 @@ body {
 }
 
 .price1 {
-  color: #5c4936;
+  color: #896948;
   text-align: left;
   font-size: 10px;
   margin: 0;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .price1 p {
   margin: 0px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
 }
 .黑巧克力森林蛋糕-text p {
@@ -122,6 +154,7 @@ body {
   font-size: 15px;
   color: #bcb08b;
   margin: 0;
+  font-weight: 500;
 }
 
 .金色傳奇起司蛋糕-text p {
@@ -168,7 +201,7 @@ body {
 .button1 {
   border: 0;
   background-color: #5c4936;
-  color: #fff;
+  color: #fffaef;
   border-radius: 0px;
   cursor: pointer;
   width: 240px;
@@ -178,7 +211,7 @@ body {
 
 .button1:hover {
   color: #5c4936;
-  background-color: #fff;
+  background-color: #fffaef;
   border: 2px #5c4936 solid;
   width: 240px;
   height: 30px;
@@ -188,7 +221,7 @@ body {
 .button2 {
   border: 0;
   background-color: #5c4936;
-  color: #fff;
+  color: #fffaef;
   border-radius: 0px;
   cursor: pointer;
   width: 240px;
@@ -198,7 +231,7 @@ body {
 
 .button2:hover {
   color: #5c4936;
-  background-color: #fff;
+  background-color: #fffaef;
   border: 2px #5c4936 solid;
   width: 240px;
   height: 30px;
@@ -208,7 +241,7 @@ body {
 .button3 {
   border: 0;
   background-color: #5c4936;
-  color: #fff;
+  color: #fffaef;
   border-radius: 0px;
   cursor: pointer;
   width: 240px;
@@ -218,7 +251,7 @@ body {
 
 .button3:hover {
   color: #5c4936;
-  background-color: #fff;
+  background-color: #fffaef;
   border: 2px #5c4936 solid;
   width: 240px;
   height: 30px;
@@ -228,7 +261,7 @@ body {
 .button4 {
   border: 0;
   background-color: #5c4936;
-  color: #fff;
+  color: #fffaef;
   border-radius: 0px;
   cursor: pointer;
   width: 240px;
@@ -238,7 +271,7 @@ body {
 
 .button4:hover {
   color: #5c4936;
-  background-color: #fff;
+  background-color: #fffaef;
   border: 2px #5c4936 solid;
   width: 240px;
   height: 30px;
@@ -254,16 +287,27 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  z-index: 99;
+  z-index: 1999;
   position: fixed;
   top: 300px;
+}
+
+.popup-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: none;
 }
 
 .howMany1 {
   flex: none;
   width: 250px;
   height: 170px;
-  background: #ffffff;
+  background: #fffaef;
   display: none;
   margin: 10px;
   border-radius: 5px;
@@ -281,7 +325,7 @@ body {
   flex: none;
   width: 250px;
   height: 170px;
-  background: #ffffff;
+  background: #fffaef;
   display: none;
   margin: 10px;
   border-radius: 5px;
@@ -299,7 +343,7 @@ body {
   flex: none;
   width: 250px;
   height: 170px;
-  background: #ffffff;
+  background: #fffaef;
   display: none;
   margin: 10px;
   border-radius: 5px;
@@ -309,7 +353,7 @@ body {
   flex: none;
   width: 250px;
   height: 170px;
-  background: #ffffff;
+  background: #fffaef;
   display: none;
   margin: 10px;
   border-radius: 5px;
@@ -388,6 +432,12 @@ body {
   align-items: center;
 }
 
+.add-cal-2 input {
+  border: none;
+  border-bottom: 2px solid #5c4936;
+  width: 130px;
+}
+
 .material-symbols-outlined-3 {
   padding-top: 5pt;
   color: #5c4936;
@@ -396,12 +446,24 @@ body {
   align-items: center;
 }
 
+.add-cal-3 input {
+  border: none;
+  border-bottom: 2px solid #5c4936;
+  width: 130px;
+}
+
 .material-symbols-outlined-4 {
   padding-top: 5pt;
   color: #5c4936;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.add-cal-4 input {
+  border: none;
+  border-bottom: 2px solid #5c4936;
+  width: 130px;
 }
 
 #addResult {
@@ -430,15 +492,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.popup-background {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display: none;
 }
